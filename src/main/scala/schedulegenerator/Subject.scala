@@ -6,12 +6,6 @@ package schedulegenerator
 sealed trait Subject:
     override def toString(): String
 
-/*object AllSubjects:
-    def get: Seq[Subject] = Seq(Math, Physics, Chemistry, Biology, Geography,
-    History, SocialStudies, HealthScience, 
-    Finnish, English, Swedish, 
-    Music, Art, Handicraft, HomeEconomics, Gym, StudyGuidance)*/
-
 
 case object Math extends Subject:
     override def toString() = "Math"
