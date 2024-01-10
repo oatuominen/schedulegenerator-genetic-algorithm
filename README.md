@@ -3,7 +3,7 @@
 This project presents a schedule generator implemented in Scala, utilizing a genetic algorithm. It is specifically designed to create schedules for educational institutions.
 
 ## Features
-- **Rapid Schedule Generation**: Capable of generating schedules for 12 classes (each with unique subject requirements) and 20 teachers in under two minutes, typically within 3000 generations.
+- **Rapid Schedule Generation**: Capable of generating schedules for 9 classes (each with unique subject requirements) and 20 teachers in under a minute, typically within 2000 generations.
 - **Adaptable Subject Criteria**: The algorithm offers the flexibility for users to modify class-specific subject requirements in the code.
 - **Manual Teacher Availability Estimation**: The algorithm relies on externally provided estimates of teacher availability, as it does not automatically determine the number of teachers capable of handling different classes.
 - **Fitness Function**: Utilizes a fitness function to evaluate and optimize the schedule quality. This function evaluates schedule instances by considering overlaps and calculating a fitness value for each individual instance.
