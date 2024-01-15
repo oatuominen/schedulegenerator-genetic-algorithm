@@ -30,9 +30,9 @@ object Data:
                                   Teacher("T20", "Teacher20", Set(HomeEconomics))
                                   )
 
-    val classes = Array(Class_("7A"), Class_("7B"), Class_("7C"),  Class_("7D"),
-                        Class_("8A"), Class_("8B"), Class_("8C"), Class_("8D"),
-                        Class_("9A"), Class_("9B"), Class_("9C"), Class_("9D"))
+    val classes = Array(Class_("7A"), Class_("7B"), Class_("7C"),
+                        Class_("8A"), Class_("8B"), Class_("8C"),
+                        Class_("9A"), Class_("9B"), Class_("9C"))
 
 
     val times = Array(
