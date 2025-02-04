@@ -12,3 +12,6 @@ This project is a schedule generator implemented in Scala, using a genetic algor
 - **Expandable Requirements**: The algorithm supports additional scheduling requirements. Adding more intricate criteria can lead to a higher number of generations required for achieving the optimal solution.
     * For instance, implementing criteria like minimizing gaps in the schedule can be managed through adjustments in the `fitness` function. 
     * Preferences can be integrated into the `fitness` function to consider class-specific and teacher-specific preferences.
+ 
+### For example, a schedule for a single class might look like this:
+![Schedule image](https://github.com/olivtuo/schedulegenerator-genetic-algorithm/blob/main/Schedule_image.png)
